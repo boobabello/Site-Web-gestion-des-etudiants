@@ -1,0 +1,157 @@
+body{
+	background-color: grey;
+}
+
+header{
+	margin: auto;
+	background-color: rgba(220,220,0,0.2);
+	margin: auto;
+	margin-bottom: 60px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 50px;
+}
+
+#navigation {
+	
+	list-style: none ;
+	text-align: center ;
+	
+}
+
+#navigation li{
+	margin-top: 17px;
+	display: inline-block;
+	text-align: center ;
+	color: #fff ;
+	background: #c00 ;
+ }
+
+
+ #navigation li a {
+ 	top: 50px;
+ 	border-radius: 10px;
+	padding: 5px 10px ;
+	background: #c00 ;
+	color: #fff ;
+	border: 1px solid #600 ;
+	font: 1em "Trebuchet MS",Arial,sans-serif ;
+	line-height: 1em ;
+	text-align: center ;
+	text-decoration: none ;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+	background: #900 ;
+	text-decoration: underline ;
+}
+
+.entete{
+	margin: 0 auto;
+	text-align: center;
+	color: blue;
+}
+
+.clignote{
+	text-decoration: blink;
+	animation: Test 1s infinite;
+}
+
+form{
+	margin: auto;
+	width: 55%;
+	background-color: rgba(220,220,0,0.2);
+	padding: 5px 0px;
+}
+
+.indication{
+	text-align: center;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	margin: 30px;
+	font-weight: bold;
+	text-decoration: blink;
+}
+
+.infos, .connexion{
+	margin: auto;
+	height: 20%;
+	margin: 25px;
+	font-weight: bold;
+}
+
+label{
+	display: block;
+	margin-left: 35px;
+	font-size: 17px;
+	width: 40%;
+	float: left;
+}
+
+input{
+	padding: 5px 10px;
+	font-size: 17px;
+}
+
+input[type="submit"]{
+	color: rgb(200,100,0);
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 17px;
+	border: 2px solid rgb(200,100,0);
+}
+
+input[type="submit"]:hover{
+	background-color: rgb(200,100,0);
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 0px #777;
+}
+
+.sexe{
+	width: 17px;
+	height: 17px;
+}
+
+#filiere{
+	width: 200px;
+	height: 35px;
+	font-size: 17px;
+}
+
+.stylebouton{
+	color: rgb(200,100,0);
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 17px;
+	border: 2px solid rgb(200,100,0);
+	text-align: center;
+}
+
+.stylebouton:hover{
+	background-color: rgb(200,100,0);
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 0px #777;
+}
+
+.validation{
+	text-align: center;
+	margin: auto;
+	padding: 10px 10px;
+}
+
+#submit_c, #submit_i{
+	width: 85%;
+	border-top: 1px solid black;
+}
+
+footer{
+	background-color: rgba(220,220,0,0.2);
+	margin-top: 60px;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+
